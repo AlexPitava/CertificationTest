@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA's Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="/Images/Goa_3_optimized.png" alt="GOA's Academy Logo">
+            </div>
+            <a href="#" class="academy-name">GOAL ORIENTED ACADEMY</a>
+        </div>
+        <ul class="nav-links">
+            <li><a class="nav-item" href="#about">About</a></li>
+            <li><a class="nav-item" href="#courses">Courses</span></a></li>
+            <li><a class="nav-item" href="#info">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="about-container" id="about">
+        <div class="about-text">
+            <h2>ჩვენს შესახებ<span class="heading-line"></span></h2>
+            <p>
+                მიზანზე ორიენტირებული აკადემია (Goal Oriented Academy) გთავაზობთ უმაღლესი ხარისხის სწავლების სისტემას ტექნოლოგიების სფეროში. ნუ დაუშვებთ გოაში არ შემოსვლის შეცდომას, ეს მომავლის და ყველაზე მოთხოვნადი სფეროა.შემოუერთდი გოას და გახდი შენი თავის საუკეთესო ვერსია. 
+            </p>
+            
+            <div class="about-info">
+                <div class="info-item">
+                    <span class="info-label">დამფუძნებელი:</span>
+                    <span class="info-value">ბატონი ნიკა კეშელავა</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">დაარსების თარიღი:</span>
+                    <span class="info-value">2020</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="about-image">
+            <img src="/Images/GOA_People.jpg" alt="GOA Academy">
+        </div>
+    </section>
+
+    <section class="slideshow-section" id="courses">
+        <div class="slideshow-container">
+            <div class="slide active">
+                <div class="slide-content">
+                    <div class="mentor-profile">
+                        <div class="mentor-image">
+                            <img src="/Images/zurab_Kuchava.png" alt="ზურაბ კუჭავა - GOA მენტორი" class="profile-img">
+                        </div>
+                        <h3 class="mentor-name">ბატონი ზურაბ კუჭავა</h3>
+                        <p class="slide-text">ალგორითმები, C++ და ხელოვნური ინტელექტი</p>
+                        <ul class="price-list">
+                            <li><span class="bullet">•</span>კვირაში ორჯერ - 190 ლარი</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="mentor-profile">
+                        <div class="mentor-image">
+                            <img src="/Images/luka_tskhvaradze.jpg" alt="ლუკა ცხვარაძე - GOA მენტორი" class="profile-img">
+                        </div>
+                        <h3 class="mentor-name">ბატონი ლუკა ცხვარაძე</h3>
+                        <p class="slide-text">ვებ პროგრამირების კურსი</p>
+                        <p class="slide-text">Web Development</p>
+                        <ul class="price-list two-column">
+                            <li><span class="bullet">•</span>კვირაში ერთხელ - 190 ლარი</li>
+                            <li><span class="bullet">•</span>კვირაში ორჯერ - 290 ლარი</li>
+                            <li><span class="bullet">•</span>კვირაში სამჯერ - 390 ლარი</li>
+                            <li><span class="bullet">•</span>კვირაში ოთხჯერ - 490 ლარი</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="mentor-profile">
+                        <div class="mentor-image">
+                            <img src="/Images/luka_gurgenidze.jpg" alt="ლუკა გურგენიძე - GOA მენტორი" class="profile-img">
+                        </div>
+                        <h3 class="mentor-name">ბატონი ლუკა გურგენიძე</h3>
+                        <p class="slide-text">თამაშების შექმნის კურსი</p>
+                        <p class="slide-text">Game Development</p>
+                        <ul class="price-list">
+                            <li><span class="bullet">•</span>კვირაში ერთხელ - 170 ლარი</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="mentor-profile">
+                        <div class="mentor-image">
+                            <img src="/Images/mariami_qsovreli.jpg" alt="მარიამ ქსოვრელი - GOA მენტორი" class="profile-img">
+                        </div>
+                        <h3 class="mentor-name">ქალბატონი მარიამ ქსოვრელი</h3>
+                        <p class="slide-text">GOA-ს გრაფიკული დიზაინის კურსი</p>
+                        <p class="slide-text">Graphic Design</p>
+                        <ul class="price-list">
+                            <li><span class="bullet">•</span>კვირაში ორჯერ - 290 ლარი</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="nav-arrow prev-arrow" onclick="prevSlide()">&#10094;</div>
+                <div class="nav-arrow next-arrow" onclick="nextSlide()">&#10095;</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="info">
+        <div class="contact-container">
+            <h2>დაგვიკავშირდით</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">ტელეფონი:</span>
+                        <span class="contact-value">+995 557 82 00 30</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">მისამართი:</span>
+                        <span class="contact-value">თბილისი, საქართველო</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">ელ-ფოსტა:</span>
+                        <span class="contact-value">goamagaria@gmail.com</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>დაგვიტოვეთ თქვენი საკონტაქტო</h3>
+                    <input type="text" placeholder="სახელი და გვარი" required>
+                    <input type="email" placeholder="ელ-ფოსტა" required>
+                    <input type="tel" placeholder="ტელეფონის ნომერი" required>
+                    <select required>
+                        <option value="">აირჩიეთ სასურველი კურსი</option>
+                        <option value="algorithms">ალგორითმები, C++ და ხელოვნური ინტელექტის</option>
+                        <option value="web">ვებ პროგრამირების</option>
+                        <option value="game">თამაშების შექმნის</option>
+                        <option value="design">გრაფიკული დიზაინის</option>
+                    </select>
+                    <button type="submit">გაგზავნა</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com/NikaGoaKeshelava" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/goal_oriented_academy__goa/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@Goal_Oriented_Academy__GOA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 Goal Oriented Academy.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
